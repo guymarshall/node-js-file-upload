@@ -1,9 +1,9 @@
 //write web server that receives files in javascript
 
-var http = require('http');
-var url = require('url');
-var fs = require('fs');
-var path = require('path');
+const http = require('http');
+const url = require('url');
+const fs = require('fs');
+const path = require('path');
 
 http.createServer(function (req, res) {
   console.log(`${req.method} ${req.url}`);
